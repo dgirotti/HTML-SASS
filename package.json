@@ -1,0 +1,30 @@
+{
+  "name": "capacitarte-",
+  "version": "1.0.0",
+  "description": "Curso de Introduccion a React dictado por: https://www.capacitarte.org/curso/curso-de-react-introduccion",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path sass sass/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgirotti/React.git"
+  },
+  "author": "Diego Girotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgirotti/React/issues"
+  },
+  "homepage": "https://github.com/dgirotti/React#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

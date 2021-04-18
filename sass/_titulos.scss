@@ -1,0 +1,25 @@
+
+//npm run watch-css  ->escribir en consola para poder sobreescribir el css desde del scss y ver los cambios en la pagina. 
+titulos{
+    background-color: $color;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-style: italic;
+    color: $fontColor;
+
+}
+
+.principal{
+    @extend titulos;
+}
+
+.final{
+    @extend titulos;
+    font-style:normal;
+    font-family:$font;
+    font-size: 30px;
+}
+

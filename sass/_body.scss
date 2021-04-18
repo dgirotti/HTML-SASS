@@ -1,0 +1,22 @@
+//npm run watch-css  ->escribir en consola  para poder sobreescribir el css desde del scss.
+
+body {
+   // background-color: rgb(247, 245, 242); 
+    background-color:#f8f9fa;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 640px;
+    max-height: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+p{
+    text-align: center;
+}
+
+
